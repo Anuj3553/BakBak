@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAKBAK - Realtime Chat App</title>
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!--Socket.IO is a library that enables low-latency, bidirectional and event-based communication between a client and a server. -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+</head>
+
+<body>
+    <!-- First Container -->
+    <nav>
+        <div class="img-container">
+            <div class="logo-img">
+                <div class="logoName1">BAK <span class="logoName2">BAK</span></div>
+                <img class="logo" src="/images/icon.png" alt="" />
+            </div>
+        </div>
+    </nav>
+
+    <!-- Second Container -->
+    <div class="container">
+        <!-- <div class="message right">Anuj : Hey how are you?</div> -->
+        <!-- <div class="message center1">user 1 : joined the chat</div> -->
+        <!-- <div class="message center2">user 1 : joined the chat</div> -->
+        <!-- <div class="message left">Rohan : Bhai I am fine. How about you</div> -->
+    </div>
+
+    <!-- Third Container -->
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageImp" id="messageInp" placeholder="Type a message" />
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
